@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resultados Ejercicio 02</title>
+    </head>
+    <body>
+        <h3>Estos son los resultados del ejercicio 02</h3>
+        <div id = "ejercicio02_resultados"></div>
+        <br>
+        <a href="/02-Forms-Tables/ejercicio02.html">Volver al Formulario 02</a>
+    </body>
+    <script>
+        const resDiv = document.getElementById("ejercicio02_resultados")
+        new URLSearchParams(window.location.search).forEach((val, name) => {
+            resDiv.append(`${name}:${val}`)
+            resDiv.append(document.createElement('br'))
+        })
+    </script>
+</html>
