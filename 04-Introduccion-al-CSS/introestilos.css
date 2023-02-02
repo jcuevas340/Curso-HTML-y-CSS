@@ -1,0 +1,52 @@
+/*Estilos para colores*/
+.colores{
+    color: orangered;
+}
+
+.color-hexadecimal{
+    color: #6CCFF6;
+}
+
+.color-rgb{
+    color: rgb(100, 0, 200
+    );
+}
+
+.color-rgba{
+    color: rgba(10, 10, 10, 0.2);
+}
+
+/*Fondos*/
+.fondo{
+    background-color: aquamarine;
+    background-image: url("https://unbounce.com/photos/Gradient-Background.png");
+    background-position: center center;
+}
+
+.fondo-interno{
+    background-color: aquamarine;
+    background-image: url("/04-Introduccion-al-CSS/Imagenes/fondo.jpg");
+    background-position: center center;
+}
+
+/*Tamanos*/
+.ancho{
+    text-align: center;
+    background-color: blueviolet;
+    width: 100px;
+}
+
+.alto{
+    background-color: chartreuse;
+    height: 400px;
+    width: 300px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
