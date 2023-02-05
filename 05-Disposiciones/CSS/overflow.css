@@ -1,0 +1,50 @@
+/* Hidden - oculta lo que sobresalga del contenedor */
+.contenedor-hidden{
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+/* scroll - se crea una barra de scroll que permite hacer scroll sobre todo el
+contenido */
+.contenedor-scroll{
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: scroll;
+}
+
+/* visible - viene por defecto */
+.contenedor-visible{
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: visible;
+}
+
+/* auto - pone las barras solo donde es necesario */
+.contenedor-auto{
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: auto;
+}
+
+/* overflow-x - se crea una barra de scroll que permite hacer scroll sobre la x */
+.contenedor-scroll-x{
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
