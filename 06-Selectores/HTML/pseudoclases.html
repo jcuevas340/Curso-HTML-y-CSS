@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo-clases</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .hover{
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+        
+        /* :hover - Se activa cuando el raton pasa por encima 
+        Es de las clases mas utilizadas*/
+        .hover:hover{
+            background-color: burlywood;
+        }
+
+        .listado{
+            padding: 15px;
+            background-color: aquamarine;
+        }
+
+        /* :first-child - hace referencia al primer hijo del selector */
+        .listado p:first-child{
+            color: white;
+        }
+
+        /* :link - hace referencia a enlaces no visitados */
+        a:link{
+            color: deeppink;
+        }
+
+        /* :visited - link visitado */
+        a:visited{
+            color: crimson;
+        }
+
+        a:hover{
+            color: pink;
+        }
+
+        /* :active - cuando se mantiene presionado el elemento */
+        a:active{
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Dolore mollit eiusmod deserunt deserunt elit id minim voluptate. 
+            Pariatur irure commodo pariatur officia fugiat do duis aliquip 
+            exercitation mollit nostrud.
+        </p>
+    </div>
+    <div class="listado">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Enlace a Google</a>
+        <a href="http://facebook.com" target="_blank">Enlace a Facebook</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.contenedor{
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+span.frase{
+    font-style: italic;
+}
+
+
+/* ::before - hace referencia a lo que esta antes de un elemento */
+span.frase::before{
+    content: '"';
+}
+
+/* ::after - hace referencia a lo que esta despues de un elemento */
+span.frase::after{
+    content: '"';
+}
+
+.libro{
+    background-color: bisque;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+/* ::first-letter - hace referencia a la primera letra */
+.libro p::first-letter{
+    font-size: xx-large;
+}
+
+/* ::first-line - hace referencia a la primera linea */
+.libro p::first-line{
+    color: white;
+}
+
+/* ::selection - hace referencia a la seleccion de un texto */
+.libro p::selection{
+    background-color: orange;
+    color: lime;
+}
+
+/* ::marker - selecciona la caja de marcadores de un elemento de la lista  */
+.listado li::marker{
+    color: red;
+}
