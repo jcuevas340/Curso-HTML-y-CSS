@@ -1,0 +1,31 @@
+.contenedor{
+    background-color: yellow;
+    padding: 0.25rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+    /* Eje principal */
+    justify-content: space-between;
+    /* Space-between: el espacio sobrante lo distribuye entre los elementos */
+    /* Space-arround: el espacio lo distribuye equitativamente alrededor de cada uno de los items */
+    /* Space-evenly: el espacio lo distribuye equitativamentea todos los elementos */
+
+    /* Eje secundario */
+    align-items: center;
+    /* Baseline: alinea los items hasta arriba */
+    /* Center: alinea los items en medio */
+    /* End: alinea los items hasta abajo */
+
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: salmon;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+.item2{
+    align-self: stretch;
+}

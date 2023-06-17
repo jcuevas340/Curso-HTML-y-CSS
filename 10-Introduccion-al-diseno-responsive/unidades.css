@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 20;
+}
+
+.escenario{
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.escenario-1{
+    width: 100%;
+}
+
+.escenario-2{
+    width: 50%;
+}
+
+.px{
+    background-color: green;
+    width: 200px;
+}
+
+/* El porcentaje siempre va a ser en relacion a su elemento padre */
+.porcentaje{
+    background-color: red;
+    width: 50%;
+}
+
+/* El ViewWidth va en relacion a la vista de la pantalla completa */
+.view{
+    background-color: yellow;
+    width: 50vw;
+}

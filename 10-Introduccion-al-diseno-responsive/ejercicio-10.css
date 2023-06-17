@@ -1,0 +1,48 @@
+.contenedor{
+    display: flex;
+}
+
+.barraLateral{
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+.barraLateral ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.barraLateral li{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.main{
+    flex: 1;
+    padding: 20px;
+}
+
+@media (max-width: 640px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        order: 2;
+    }
+
+    .main-section {
+        order: 1;
+    }
+
+    .sidebar ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sidebar li {
+        padding: 0;
+        margin: 5px;
+    }
+}
